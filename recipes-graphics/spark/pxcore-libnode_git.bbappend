@@ -1,6 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/pxcore-libnode:"
 
 SRC_URI += "file://Spark.pc \
+           file://pxScene-disable-2DMultisampleEXT.patch \
            file://spark-wpeframework-compositor.patch \
            file://pxScene-essos-support-for-shared-lib.patch \
 "
